@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #800000;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #0078d7;
+}
+
+/* Search Form Styles */
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-form button:hover {
+    background-color: #005bb5;
+}
+
+/* Error Message Styles */
+.error-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+}
+
+/* Weather Result Styles */
+.weather-result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.weather-result.sunny {
+    background-color: #ffeb3b; /* Yellow for Sunny */
+    color: #333;
+}
+
+.weather-result.rainy {
+    background-color: #bbdefb; /* Light Blue for Rainy */
+    color: #005bb5;
+}
+
+.weather-result.cloudy {
+    background-color: #cfd8dc; /* Grey for Cloudy */
+    color: #333;
+}
+
+.weather-result.snow {
+    background-color: #e3f2fd; /* Light Blue for Snow */
+    color: #333;
+}
+
+.weather-result.windy {
+    background-color: #c8e6c9; /* Light Green for Windy */
+    color: #333;
+}
+
+.weather-result.misty {
+    background-color: #e0f7fa; /* Light Cyan for Misty */
+    color: #333;
+}
+
+.weather-result.stormy {
+    background-color: #f44336; /* Red for Thunderstorm */
+    color: #fff;
+}
+
+.weather-result.fog {
+    background-color: #bbdefb; /* Light Blue for Fog */
+    color: #333;
+}
+
+/* Additional Weather Styles */
+.weather-result.extreme-heat {
+    background-color: #ff5722; /* Orange for Extreme Heat */
+    color: #fff;
+}
+
+.weather-result.extreme-cold {
+    background-color: #03a9f4; /* Blue for Extreme Cold */
+    color: #fff;
+}
+
+.weather-result.haze {
+    background-color: #5dade2; /* Light Blue for Haze */
+    color: #fff; /* White text for contrast */
+}
+
+.weather-result.drizzle {
+    background-color: #c5cae9; /* Light Purple for Drizzle */
+    color: #333;
+}
+
+.weather-result.sleet {
+    background-color: #90caf9; /* Light Blue for Sleet */
+    color: #333;
+}
+
+.weather-result.dust-storm {
+    background-color: #ff9800; /* Orange for Dust Storm */
+    color: #fff;
+}

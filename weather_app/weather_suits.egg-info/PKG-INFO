@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: weather_suits
+Version: 1.0.0
+Summary: weather suits recommands suits according to the live weather condition - this project is developed usnig django.
+Author: Naresh_kumaar
+Author-email: nareshkumaarnk18@gmail.com
+Requires-Python: >=3.7
+Requires-Dist: django>=4.2
+Requires-Dist: requests
+Requires-Dist: numpy==1.24.3
